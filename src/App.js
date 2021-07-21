@@ -1,12 +1,20 @@
 import React, { Component } from 'react'
-import Admin from './pages/Admin'
+import Navbar from './pages/Navbar'
+import './App.css'
+import {BrowserRouter} from 'react-router-dom'
 
 export default class componentName extends Component {
   render() {
     return (
       <div>
-        Hello Github
-        <Admin/>
+       <Navbar/>
+       <BrowserRouter>
+       <Switch>
+<Route exact path="/">
+  <Dashboard/>
+</Route>
+       </Switch>
+       </BrowserRouter>
       </div>
     )
   }
