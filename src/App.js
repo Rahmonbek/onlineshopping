@@ -9,11 +9,11 @@ export default class componentName extends Component {
       <div>
        <Navbar/>
        <BrowserRouter>
-       <Switch>
-<Route exact path="/">
-  <Dashboard/>
-</Route>
-       </Switch>
+        <Switch>
+            <Route exact path="/">
+              <Dashboard/>
+            </Route>
+        </Switch>
        </BrowserRouter>
       </div>
     )
