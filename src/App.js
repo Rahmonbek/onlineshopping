@@ -3,7 +3,7 @@ import Navbar from './pages/Navbar'
 import Companent from './pages/cards/Companent'
 import './App.css'
 import {BrowserRouter, Route, Switch} from 'react-router-dom'
-import Dashboard from './pages/dashboard/Dashboard'
+// import Dashboard from './pages/dashboard/Dashboard'
 
 export default class componentName extends Component {
   render() {
@@ -13,7 +13,7 @@ export default class componentName extends Component {
        <BrowserRouter>
         <Switch>
             <Route exact path="/">
-              <Dashboard/>
+              {/* <Dashboard/> */}
             </Route>
         </Switch>
        </BrowserRouter>

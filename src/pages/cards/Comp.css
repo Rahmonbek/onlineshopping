@@ -1,8 +1,40 @@
-.cards{
-    width: 20%;
-    height: 400px;
-    box-shadow: 0px 0px 5px black;
-    border-radius: 20px;
-    /* background-color: blueviolet; */
-  }
- 
+.cards {
+  width: 23%;
+  height: 400px;
+  display: inline-block;
+  padding: 10px;
+  box-sizing: border-box;
+  margin:5px;
+  transition: 0.5s;
+  cursor: pointer;
+  font-family: "Calibri Light";
+  font-weight: normal;
+}
+.first{
+  /* margin-top: 50px; */
+  border-radius: 10px;
+  background-color: #eb1537;
+  width: 20%;
+  height: 800px;
+  display: inline-block;
+  border: 1px solid black;
+}
+.second{
+  margin-left: 10px;
+  width: 79%;
+  display: inline-block;
+}
+.foto {
+  width: 90%;
+  height: 70%;
+  margin-left: 5%;
+  margin-top: 3%;
+}
+.bigSheet {
+  width: 90%;
+  margin-left: 5%;
+}
+.cards:hover {
+  box-shadow: 0px 0px 5px black;
+  border-radius: 15px;
+}
